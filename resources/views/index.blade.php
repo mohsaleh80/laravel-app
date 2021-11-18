@@ -4,15 +4,12 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-        // put your code here
-        echo 'Hello To laravel ...';
-        ?>
-    </body>
-</html>
+
+        
+        @extends('layouts.master')
+
+        @section('content')
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, debitis quisquam blanditiis libero eius animi itaque illum distinctio. Suscipit, voluptas odio dolorem dignissimos accusantium eius culpa dolore distinctio corrupti cum!
+            </p>
+        @endsection
